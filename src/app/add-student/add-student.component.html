@@ -1,0 +1,27 @@
+<h3 class="instructions">To find your peer mentor, enter your information as listed below.
+    All fields must be completed for matching.
+</h3>
+<form name="studentInput">
+	<div class="inputBox">
+		<input #name type='text' placeholder="Enter your name here."/>
+	</div>
+	<div class="inputBox">
+		<input #age type='text' placeholder="Enter your age here."/>
+	</div>
+	<div class="inputBox">
+		<select id="degree">
+			<option value="arts">Associate in Arts</option>
+			<option value="science">Associate in Science</option>
+			<option value="cert">Certificate Programs</option>
+			<option value="noncredit">Non-Credit Classes</option>
+		</select>
+	</div>
+	<div class="inputBox">
+		<select id="progress">
+			<option value="firstYear">First Year</option>
+			<option value="secondYear">Second Year</option>
+			<option value="returning">Returning Student</option>
+		</select>
+	</div>
+</form>
+<button type="submit" form="studentInput">Submit Form</button>
